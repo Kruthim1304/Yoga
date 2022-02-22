@@ -1,0 +1,204 @@
+
+.tree {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 800px) {
+  
+    .tree {
+      max-width: 90%;
+    }
+    
+    header {
+      width: 100%;
+    }
+    
+    nav, section {
+      float: right;
+    }
+  
+    nav {
+      width: 50%;
+      margin-left: 1%;
+    }
+  
+    section {
+      width: 49%;
+    }
+    
+  }
+  
+  
+  @media screen and (min-width: 1000px) {
+  
+    .tree {
+      max-width: 66.66667%;
+    }
+    
+  }
+  
+
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #c7e1d8;
+    color: rgb(27, 66, 12);
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+  }
+  
+  header,
+  nav,
+  section {
+    margin-bottom: 10px;
+    border-radius: 3px;
+ 
+  }
+    
+  h1{
+    margin-top: 10px;
+    height: 30px;
+    font-size: 60px;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+ 
+  nav{
+    padding: 5px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: left;    
+    border-style: double;
+    border-radius: 10px;
+    border-color: #1f7704;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  section{
+    padding: 0px;
+    padding-left: 1px;
+  }
+
+
+/* DROPDOWN */
+  
+  .dropbtn {
+    background-color: #f1bd68;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    width: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #f09708;
+    }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    height:80px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  .dropdown-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1d3a1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #f3b043;
+  }
+
+
+
+/* CSS */
+.button-45 {
+    position: relative;
+    display: inline-block;
+  background-color: #f1bd68;
+  border: 1px solid #f09708;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: center;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  position: relative;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #f3b043;
+  box-shadow: rgba(248, 214, 103, 0.897) 0 1px 3px 0 inset;
+  color: #f3b043;
+}
+
+.button-45:hover {
+  background-color: #f3b043;
+  border-color: #f09708;
+  border: solid 1px;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #f3b043;
+  box-shadow: rgba(248, 214, 103, 0.897) 0 1px 3px 0 inset;
+  color: #000000;
+}
